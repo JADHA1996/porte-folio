@@ -84,7 +84,7 @@
   display: none !important; }
 
 .mfp-preloader {
-  color: #CCC;
+  color: #e27575;
   position: absolute;
   top: 50%;
   width: auto;
@@ -94,9 +94,9 @@
   right: 8px;
   z-index: 1044; }
   .mfp-preloader a {
-    color: #CCC; }
+    color: #e27575; }
     .mfp-preloader a:hover {
-      color: #FFF; }
+      color: #5856db; }
 
 .mfp-s-ready .mfp-preloader {
   display: none; }
@@ -287,7 +287,7 @@ img.mfp-img {
 .mfp-title {
   text-align: left;
   line-height: 18px;
-  color: #F3F3F3;
+  color: #ca1010;
   word-wrap: break-word;
   padding-right: 36px; }
 

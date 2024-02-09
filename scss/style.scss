@@ -3,12 +3,12 @@
 
 $font-primary: 'Poppins',Arial, sans-serif;
 
-$white: #fff;
+$white: #b34f4f;
 $black: #000000;
 $darken: #232931;
 
-$primary: #b1b493;
-$secondary: #a0f669;
+$primary: #a88628;
+$secondary: #2f640f;
 
 
 
@@ -33,7 +33,7 @@ html {
 }
 body {
 	font-family: $font-primary;
-	background: $white;
+	background: $darken;
 	font-size: 16px;
 	line-height: 1.8;
 	font-weight: 400;
@@ -218,7 +218,7 @@ h1, h2, h3, h4, h5,
 	}
 	.navbar-toggler {
 		border: none;
-		color: rgba(255,255,255,.5)!important;
+		color: rgba(44, 16, 172, 0.5)!important;
 		cursor: pointer;
 		padding-right: 0;
 		text-transform: uppercase;
@@ -382,7 +382,7 @@ h1, h2, h3, h4, h5,
 				width: 14px;
 				height: 14px;
 				content: '';
-				border:1px solid rgba(255,255,255,.3);
+				border:1px solid rgba(45, 16, 148, 0.3);
 				@include border-radius(50%);
 			}	
 			&:hover, &:focus{
@@ -540,7 +540,7 @@ h1, h2, h3, h4, h5,
 					color: rgba(0,0,0,.8);
 					font-weight: 400;
 					@include media-breakpoint-down(md) {
-						color: rgba(255,255,255,.7);
+						color: rgba(17, 136, 6, 0.7);
 						font-size: 23px;
 					}
 				}
@@ -635,7 +635,7 @@ h1, h2, h3, h4, h5,
 				height: 10px;
 				margin: 5px;
 				border-radius: 50%;
-				background: rgba(255,255,255,.4);
+				background: rgba(185, 70, 70, 0.4);
 				&.active {
 					background: $white;
 				}
@@ -695,7 +695,7 @@ h1, h2, h3, h4, h5,
 		font-size: 20px;
 		line-height: 1.5;
 		font-weight: 300;
-		color: rgba(255,255,255,.8);
+		color: rgba(110, 28, 28, 0.8);
 		strong{
 			font-weight: 700;
 			a{
@@ -732,7 +732,7 @@ h1, h2, h3, h4, h5,
 
 
 .bg-light {
-	background: #f8f9fa!important;
+	background: #387ec4!important;
 }
 
 .bg-primary{
@@ -921,7 +921,7 @@ h1, h2, h3, h4, h5,
 			color: $white;
 		}
 		.media-body{
-			color: rgba(255,255,255,.8);
+			color: rgba(79, 93, 218, 0.8);
 		}
 	}
 }
@@ -962,7 +962,7 @@ h1, h2, h3, h4, h5,
 	  width: 100%;
 	  height: 100%;
 	  border-radius: 50%;
-	  border: 6px solid #eee;
+	  border: 6px solid #df7070;
 	  position: absolute;
 	  top: 0;
 	  left: 0;
@@ -1027,7 +1027,7 @@ h1, h2, h3, h4, h5,
 .ftco-hireme{
 	background: $primary;
 	padding: 0;
-	color: rgba(255,255,255,.9);
+	color: rgba(228, 132, 132, 0.9);
 	h2{
 		color: $white;
 		font-size: 34px;
@@ -1087,7 +1087,7 @@ h1, h2, h3, h4, h5,
 		@include media-breakpoint-down(sm){
 			opacity: 1;
 			span{
-				color: rgba(255,255,255,.8);
+				color: #df5959cc;
 			}
 		}
 	}
@@ -1181,7 +1181,7 @@ h1, h2, h3, h4, h5,
 .testimony-wrap{
 	display: block;
 	position: relative;
-	background: rgba(255,255,255,1);
+	background: rgb(209, 91, 91);
 	padding: 0 20px;
 	border: 1px solid rgba(0,0,0,.02);
 	-webkit-box-shadow: 0px 5px 21px -14px rgba(0,0,0,0.14);
@@ -1305,10 +1305,10 @@ textarea.form-control {
 			li{
 				margin-bottom: 10px;
 				a{
-					color: rgba(255,255,255,.6);
+					color: rgba(199, 89, 89, 0.6);
 					span{
 						// color: $white;
-						color: rgba(255,255,255,.6);
+						color: rgba(247, 107, 107, 0.6);
 					}
 				}
 			}
