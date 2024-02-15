@@ -8088,7 +8088,7 @@ a.text-dark:hover, a.text-dark:focus {
     white-space: pre-wrap !important; }
   pre,
   blockquote {
-    border: 1px solid #adb5bd;
+    border: 1px solid #ffc107;
     page-break-inside: avoid; }
   thead {
     display: table-header-group; }
@@ -8134,11 +8134,11 @@ a.text-dark:hover, a.text-dark:focus {
 
 body {
   font-family: "Poppins", Arial, sans-serif;
-  background: #fff;
+  background: #fff3cd;
   font-size: 16px;
   line-height: 1.8;
   font-weight: 400;
-  color: #999999; }
+  color: #000000; }
   body.menu-show {
     overflow: hidden;
     position: fixed;
@@ -8158,7 +8158,7 @@ a {
 h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
   line-height: 1.5;
-  color: rgba(0, 0, 0, 0.9);
+  color: #002752;
   font-weight: 400; }
 
 .text-primary {
@@ -8173,7 +8173,7 @@ h1, h2, h3, h4, h5,
   z-index: 3; }
   @media (max-width: 991.98px) {
     .ftco-navbar-light {
-      background: #000000 !important;
+      background: #002752 !important;
       position: relative;
       top: 0;
       padding-top: 0;
@@ -8534,7 +8534,7 @@ h1, h2, h3, h4, h5,
           font-size: 14px;
           letter-spacing: 3px;
           text-transform: uppercase;
-          color: #b1b493; }
+          color: #002752; }
         .owl-carousel.home-slider .slider-item .slider-text .text {
           position: relative;
           z-index: 1; }
@@ -8545,10 +8545,10 @@ h1, h2, h3, h4, h5,
           font-weight: 800; }
           .owl-carousel.home-slider .slider-item .slider-text h1 span {
             font-weight: 800;
-            color: #b1b493; }
+            color: #005cbf; }
           @media (max-width: 991.98px) {
             .owl-carousel.home-slider .slider-item .slider-text h1 {
-              color: #fff;
+              color: #040505;
               font-size: 50px; } }
           @media (max-width: 767.98px) {
             .owl-carousel.home-slider .slider-item .slider-text h1 {
@@ -8731,16 +8731,16 @@ h1, h2, h3, h4, h5,
   .btn:hover, .btn:active, .btn:focus {
     outline: none; }
   .btn.btn-primary {
-    background: #b1b493;
-    border: 1px solid #b1b493 !important;
+    background: #002752;
+    border: 1px solid #002752 !important;
     color: #fff !important; }
     .btn.btn-primary:hover {
-      border: 1px solid #b1b493;
-      color: #b1b493; }
+      border: 1px solid #002752;
+      color: #002752; }
     .btn.btn-primary.btn-outline-primary {
-      border: 2px solid #b1b493 !important;
+      border: 2px solid #002752 !important;
       background: transparent !important;
-      color: #b1b493 !important; }
+      color: #002752 !important; }
       .btn.btn-primary.btn-outline-primary:hover {
         border: 2px solid transparent !important;
         background: #b1b493 !important;
@@ -8802,7 +8802,7 @@ h1, h2, h3, h4, h5,
     .ftco-about ul.about-info li span {
       width: calc(100% - 130px);
       font-weight: 600;
-      color: #b1b493; }
+      color: #062c33; }
       .ftco-about ul.about-info li span:first-child {
         font-weight: 600;
         color: #000000;
@@ -8847,7 +8847,7 @@ h1, h2, h3, h4, h5,
     margin-top: -60px;
     width: 80px;
     height: 80px;
-    background: #b1b493;
+    background: #004085;
     border-radius: 50%;
     margin-bottom: 15px;
     -moz-transition: all 0.3s ease;
@@ -8862,7 +8862,7 @@ h1, h2, h3, h4, h5,
     font-size: 18px;
     font-weight: 500; }
   .services:hover {
-    background: #b1b493 !important; }
+    background: #002752 !important; }
     .services:hover .icon {
       background: #fff;
       margin-left: 20px; }
@@ -8882,7 +8882,7 @@ h1, h2, h3, h4, h5,
     font-weight: 500; }
 
 .progress-circle .h4 {
-  color: #b1b493;
+  color: #e0a800;
   font-size: 22px; }
 
 .progress-circle .small {
@@ -8932,7 +8932,7 @@ h1, h2, h3, h4, h5,
   -webkit-transform-origin: center left;
   -ms-transform-origin: center left;
   transform-origin: center left;
-  border-color: #b1b493 !important; }
+  border-color: #0069d9 !important; }
 
 .progress-circle .progress .progress-right {
   right: 0; }
@@ -8945,7 +8945,7 @@ h1, h2, h3, h4, h5,
   -webkit-transform-origin: center right;
   -ms-transform-origin: center right;
   transform-origin: center right;
-  border-color: #b1b493 !important; }
+  border-color: #0069d9 !important; }
 
 .progress-circle .progress .progress-value {
   position: absolute;
@@ -8953,11 +8953,11 @@ h1, h2, h3, h4, h5,
   left: 0; }
 
 .ftco-hireme {
-  background: #b1b493;
+  background: #fbfcfc;
   padding: 0;
-  color: rgba(255, 255, 255, 0.9); }
+  color: #002752; }
   .ftco-hireme h2 {
-    color: #fff;
+    color: #007bff;
     font-size: 34px;
     font-weight: 600; }
   @media (min-width: 992px) {
@@ -9152,7 +9152,7 @@ textarea.form-control {
   visibility: hidden; }
 
 .bg-primary {
-  background: #b1b493 !important; }
+  background: #0f6674 !important; }
 
 .ftco-section {
   padding: 7em 0;
@@ -9172,7 +9172,7 @@ textarea.form-control {
 
 .ftco-footer {
   font-size: 16px;
-  background: #232931;
+  background: #002752;
   padding: 7em 0;
   z-index: 0; }
   .ftco-footer .ftco-footer-logo {
@@ -9270,7 +9270,7 @@ textarea.form-control {
   margin-bottom: 5px;
   text-transform: uppercase;
   color: black;
-  color: #b1b493;
+  color: #002752;
   letter-spacing: 3px; }
 
 .heading-section h2 {
@@ -9343,7 +9343,7 @@ textarea.form-control {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background: #b1b493;
+    background: #007bff;
     position: relative; }
     .ftco-counter .icon span {
       font-size: 40px;
@@ -9365,7 +9365,7 @@ textarea.form-control {
     .ftco-counter .text span {
       font-weight: 600;
       font-size: 15px;
-      color: #b1b493;
+      color: #002752;
       text-transform: uppercase; }
   @media (max-width: 767.98px) {
     .ftco-counter .counter-wrap {
@@ -9488,12 +9488,12 @@ textarea.form-control {
       font-weight: 500;
       color: #000000; }
     .dbox p a {
-      color: #b1b493; }
+      color: #002752; }
   .dbox .icon {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background: #b1b493;
+    background: #002752;
     margin: 0 auto;
     margin-bottom: 20px; }
     .dbox .icon span {
